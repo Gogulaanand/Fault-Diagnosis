@@ -9,14 +9,16 @@ We can identify the fault using non linear kalman filters but to avoid the compl
 
 The added csv file has data in the following format:
 
-first column of the csv represents the each time step of the total time the simulation was run
-column 2 to 4 represents the 3 phase stator currents
-column 5 to 6 represents the state of the generator(healthy/faulty) and if faulty, then the percentage of fault is represented by 6th column
-in column 5, 0 represents healthy state
-                    1 represents fault in phase A
-                    2 represents fault in phase B
-                    3 represents fault in phase C
-in column 6, 4 represents 1.6% fault
-                    5 represents 3.33% fault
-                    6 represents 4% fault
-for the column 6th column as of now only 1.6% fault data has been added 
+<p>first column of the csv represents the each time step of the total time the simulation was run</p>
+<p>column 2 to 4 represents the 3 phase stator currents</p>
+<p>column 5 to 6 represents the state of the generator(healthy/faulty) and if faulty, then the percentage of fault is represented by 6th column</p>
+
+<p>columns 2 to 4 are the input while columns 5 and 6 represent the target labels</p>
+<p>in column 5,</p><ul><li> 0 represents healthy state</li>
+  <li>1 represents fault in phase A</li>
+  <li>2 represents fault in phase B</li>
+  <li>3 represents fault in phase C</li></ul>
+  <p>in column 6,</p><ul><li> 4 represents 1.6% fault</li>
+  <li>5 represents 3.33% fault</li>
+  <li>6 represents 4% fault</li></ul>
+<p>for the column 6th column as of now only 1.6% fault data has been added</p>
